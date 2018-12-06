@@ -1,6 +1,9 @@
 body {
   padding: 0;
   margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
 }
 
 header{
@@ -30,6 +33,17 @@ nav h3 {
     margin: 0;
 }
 
+main {
+    padding: 0;
+    margin: 0;
+    border: 5px solid red;
+    height: 100%;
+}
+
+main article {
+    text-align: center;
+}
+
 footer{
   background-color: green;
   height: auto;
@@ -38,11 +52,7 @@ footer{
   padding: 10px;
 }
 
-
 footer h3{
-
     padding: 0;
     margin: 0;
     font-size: 30px;
-    text-align: center;
-}
